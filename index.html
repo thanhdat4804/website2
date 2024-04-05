@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web bán đồ ăn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f44336;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            width: 300px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer{
+          padding-left: 75%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trang web bán đồ ăn</h1>
+    </header>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+    <div class="container">
+        <div class="item">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.W5A88VvmwibfNW2EqDynwwHaE0&pid=Api&P=0&h=180" alt="Food 1">
+            <h2>Thức ăn 1</h2>
+            <p>Mô tả thức ăn 1</p>
+            <p>Giá: $10.00</p>
+            <button>Mua hàng</button>
+        </div>
+        <div class="item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.paK_UK5Hnf_fGUCkmZ-hFAHaEK&pid=Api&P=0&h=180" alt="Food 2">
+            <h2>Thức ăn 2</h2>
+            <p>Mô tả thức ăn 2</p>
+            <p>Giá: $15.00</p>
+            <button>Mua hàng</button>
+        </div>
+        <!-- Thêm các mục sản phẩm khác tại đây -->
+    </div>
+    <footer>
+        <p>© 2024. Trang web bán đồ ăn.</p>
+    </footer>
+    <script>
+      function addToCart(productName, price) {
+          alert("Đã thêm " + productName + " vào giỏ hàng với giá " + price + " đồng.");
+          // Ở đây bạn có thể thêm mã JavaScript để thêm sản phẩm vào giỏ hàng hoặc thực hiện các tác vụ khác liên quan đến mua hàng
+      }
+  </script>
+</body>
+</html>
